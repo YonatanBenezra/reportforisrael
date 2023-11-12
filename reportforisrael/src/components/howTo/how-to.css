@@ -1,0 +1,46 @@
+.report-guide {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.report-guide h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.step {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-left: 5px solid #007bff;
+    border-radius: 4px;
+}
+
+.step h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.step p {
+    font-size: 16px;
+    color: #555;
+}
+
+.step img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+.thank-you {
+    text-align: center;
+    font-size: 18px;
+    color: #28a745;
+    margin-top: 30px;
+}

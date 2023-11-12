@@ -1,0 +1,15 @@
+/* Assuming you are using CSS modules, you should import this file into your Post component as styles and use it like className={styles.className} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .video {
+    @apply w-full;
+  }
+  .image {
+    @apply w-full object-cover;
+  }
+}
+
+/* If you're not using modules, you can use the classes directly in your JSX */

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-blue-600 text-white px-6 py-2 rounded-md shadow-md transition duration-300 ease-in-out hover:bg-blue-700 hover:shadow-lg;
+  }
+
+  .btn-prev {
+    @apply mr-2;
+  }
+
+  .btn-next {
+    @apply ml-2;
+  }
+}
