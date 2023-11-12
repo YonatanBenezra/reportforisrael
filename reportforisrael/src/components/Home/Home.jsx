@@ -10,7 +10,7 @@ const Home = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await axios.get("http://localhost:3001/api/posts");
+        const response = await axios.get("https://reportforisrael.onrender.com/api/posts");
         const shuffledPosts = shuffleArray(response.data);
         setPosts(shuffledPosts);
       } catch (error) {
